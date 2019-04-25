@@ -55,30 +55,22 @@ sleep 3
 
 case $cia in
 
-apt-get install git -y
-
-apt-get install wget -y
-
+Y)cd $HOME
+apt-get install git -y && apt-get install wget -y
 apt-get install curl -y
-
 apt-get install ruby -y
-
 gem install bundle -y
-
 apt-get install root-repo -y
-
 apt-get unstable root-repo -y
-
 apt-get install x11-repo -y
-
 apt-get install metasploit
-
 echo "Metasploit sudah TerInstall" | lolcat
-
-
-cd $HOME
+sleep 3
 
 clear
 
-metasploit
+cd $HOME
+
+msvconsole
+
 
