@@ -47,7 +47,7 @@ sleep 1
 echo "Proses Instaling 5-15mnt" | lolcat
 echo ""
 
-read -p "Siap? = Y / T" cia
+read -p "Siap? = Y / T : " cia
 
 
 echo "Waiting for progress ...." | lolcat
