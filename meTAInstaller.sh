@@ -50,6 +50,8 @@ echo ""
 echo "Waiting for progress ...." | lolcat
 sleep 3
 
+clear
+
 cd $HOME
 apt-get install git -y && apt-get install wget -y
 apt-get install curl -y
