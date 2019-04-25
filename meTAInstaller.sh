@@ -47,7 +47,7 @@ sleep 1
 echo "Proses Instaling 5-15mnt" | lolcat
 echo ""
 
-read -p "Siap? [Y/T]= " cia
+read -p "Siap? = Y / T" cia
 
 
 echo "Waiting for progress ...." | lolcat
@@ -55,7 +55,7 @@ sleep 3
 
 case $cia in
 
-Y)cd $HOME
+y)cd $HOME
 apt-get install git -y && apt-get install wget -y
 apt-get install curl -y
 apt-get install ruby -y
