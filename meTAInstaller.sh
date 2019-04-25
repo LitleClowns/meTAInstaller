@@ -47,6 +47,8 @@ sleep 1
 echo "Proses Instaling 5-15mnt" | lolcat
 echo ""
 
+clear
+
 echo "Waiting for progress ...." | lolcat
 sleep 3
 
@@ -57,10 +59,10 @@ apt-get install git -y && apt-get install wget -y
 apt-get install curl -y
 apt-get install ruby -y
 gem install bundle -y
-apt-get install root-repo -y
-apt-get unstable root-repo -y
-apt-get install x11-repo -y
-apt-get install metasploit
+pkg install root-repo -y
+pkg unstable root-repo -y
+pkg install x11-repo -y
+pkg install metasploit
 echo "Metasploit sudah TerInstall" | lolcat
 sleep 3
 
