@@ -62,7 +62,6 @@ apt-get unstable root-repo -y
 apt-get install x11-repo -y
 apt-get install metasploit
 echo "Metasploit sudah TerInstall" | lolcat
-;;
 sleep 3
 
 clear
